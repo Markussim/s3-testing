@@ -7,7 +7,7 @@ var s3 = new AWS.S3({
   secretAccessKey: creds.pass,
 });
 
-let file = "unknown.png"
+let file = "screen.png"
 
 fs.readFile(file, function (err, data) {
   params = { Bucket: "markussim-testing", Key: file, Body: data };

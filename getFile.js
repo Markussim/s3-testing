@@ -12,7 +12,7 @@ var s3 = new AWS.S3({
 
 var getParams = {
   Bucket: "markussim-testing", //replace example bucket with your s3 bucket name
-  Key: "unknown.png", // replace file location with your s3 file location
+  Key: "screen.png", // replace file location with your s3 file location
 };
 
 app.get("/", (req, res) => {
