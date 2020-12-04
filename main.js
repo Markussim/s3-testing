@@ -3,11 +3,11 @@ var fs = require("fs");
 const creds = require("./credentials.json");
 
 var s3 = new AWS.S3({
-  accessKeyId: "AKIAJZBIK6P4L46IAINQ",
-  secretAccessKey: "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",
+  accessKeyId: creds.id,
+  secretAccessKey: creds.pass,
 });
 
-let file = "chart.png"
+let file = "unknown.png"
 
 fs.readFile(file, function (err, data) {
   params = { Bucket: "markussim-testing", Key: file, Body: data };
