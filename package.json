@@ -1,0 +1,23 @@
+{
+  "name": "s3-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Markussim/s3-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Markussim/s3-testing/issues"
+  },
+  "homepage": "https://github.com/Markussim/s3-testing#readme",
+  "dependencies": {
+    "aws-sdk": "^2.803.0"
+  }
+}
